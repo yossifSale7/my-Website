@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400&display=swap');
+
+* {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -webkit-o-box-sizing: border-box;
+    -webkit-moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-scroll-behavior: smooth;
+    -webkit-o-scroll-behavior: smooth;
+    -webkit-moz-scroll-behavior: smooth;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url("learning.png");
+    background-size: cover;
+    background-position: center;
+    transition: .2s;
+}
+
+.laptop {
+    position: absolute;
+    width: 300px;
+    top: -350px;
+    right: 120px;
+    transition: 2s;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.logo {
+    width: 200px;
+    margin-top: 110px;
+}
+
+.navigation a {
+    flex-wrap: wrap;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: 600;
+    padding-left: 30px;
+    transition: 0.2s;
+}
+
+section {
+    padding: 100px 200px;
+}
+
+.main {
+    width: 100%;
+    margin-top: 30px;
+    margin-left: -100px;
+    display: flex;
+    align-items: center;
+}
+
+.main img {
+    width: 75%;
+    position: absolute;
+    top: -190px;
+    left: -160px;
+    z-index: -1;
+}
+
+.hide {
+    opacity: 0;
+    transition: 2s;
+}
+
+.main h2 {
+    color: white;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+.main span {
+    display: inline-block;
+    margin-top: 10px;
+    color: rgb(252, 204, 20);
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.main h3 {
+    color: white;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.main-btn {
+    color: white;
+    background-color: rgb(252, 204, 20);
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.256s ease;
+}
+
+.main-btn:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(252, 204, 20);
+    transform: scale(1.1);
+}
+
+.social-media a{
+    color: white;
+    font-size: 1.2em;
+    padding-right: 6.5px;
+    margin-left: 20px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: rgb(4, 36, 100);
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+    opacity: 0;
+    transition: 1s;
+}
+
+.title1 {
+    display: flex;
+    justify-content: center;
+    color: rgb(4, 36, 100);
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+    opacity: 0;
+    transition: 1s;
+}
+
+.title2 {
+    display: flex;
+    justify-content: center;
+    color: rgb(4, 36, 100);
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+    opacity: 0;
+    transition: 1.5s;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-left: -4000px;
+    transition: 1s;
+}
+
+.inf {
+    padding: 10px;
+    width: 1000px;
+    margin-top: 100px;
+    transition: 0.256s;
+}
+
+.icon {
+    color: rgb(4, 36, 100);
+    font-size: 5em;
+    text-align: center;
+}
+
+.info {
+    text-align: center;
+}
+
+.info h3 {
+    color: rgb(4, 36, 100);
+    font-size: 1.7em;
+    font-weight: 700;
+    margin: 10px
+}
+
+#My-Work {
+    width: 100%;
+    height: 570px;
+    background-color: rgb(4, 36, 100);
+}
+
+.imgs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    opacity: 0;
+    transition: 1s ease-in-out;
+}
+
+.works1 {
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 0 30px 0 black;
+    filter: brightness(80%);
+    transition: .2s;
+    margin: 20px;
+    margin-top: 100px;
+}
+
+.works1:hover {
+    transform: scale(1.1);
+}
+
+.titleX {
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-top: -20px;
+    opacity: 0;
+    transition: 1s;
+}
+
+.title2 {
+    margin-bottom: 30px;
+    text-align: center;
+    color: rgb(4, 36, 100);
+    font-weight: 700;
+    font-size: 2em;
+}
+
+.price {
+    opacity: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    transition: 1s;
+}
+
+.card {
+    background-color: white;
+    padding: 35px;
+    margin-right: 50px;
+    margin-top: 40px;
+    box-shadow: 0 0 10px 0 rgba(1, 1, 1, 0.671);
+    transition: 0.2s;
+    height: 480px;
+}
+
+.card img {
+    width: 70px;
+    margin: 5px 60px;
+}
+
+.card h2 {
+    font-size: 3em;
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(0, 119, 255);
+}
+
+.card p:first-of-type {
+    text-align: center;
+    margin: 10px;
+    opacity: .7;
+}
+
+.card div i {
+    font-size: 1.3em;
+    margin-top: 35px;
+    margin-left: 5px;
+    margin-right: 10px;
+    color: dodgerblue;
+}
+
+.card div span {
+    font-size: 1.1em;
+}
+
+.end-text {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 400;
+    color: rgb(4, 36, 100);
+}
+
+.contact {
+    overflow: hidden;
+}
+
+.numb {    
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 2000px;
+    transition: 1s;
+}
+
+.icon3 {
+    background-color: white;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 1.2em;
+    margin: 30px;
+    padding: 40px 40px;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 60%);
+}
+
+.icon4 {
+    margin-bottom: 2px;
+    padding: 10px 45px
+}
+
+.icon3 div i {
+    font-size: 4em;
+    color: rgb(4, 36, 100);
+}
+
+.icon3 div p {
+    padding: 10px;
+    font-size: 1em;
+    text-align: center;
+    color: black;
+}
+
+.email {
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+.end-nav {
+    background-color: rgb(0, 14, 41);
+    color: white;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.end-nav div {
+    letter-spacing: 5px;
+}
+
+.footer {
+    font-weight: 500px;
+}
+
+.end-nav a {
+    color: rgb(252, 204, 20);
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.social a{
+    color: white;
+    text-decoration: none;
+}
+
